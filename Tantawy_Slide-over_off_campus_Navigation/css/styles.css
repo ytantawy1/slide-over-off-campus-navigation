@@ -1,0 +1,52 @@
+header {
+    background: #333;
+    color: #FFF;
+    padding: 20px;
+    position: relative;
+}
+
+.tog-btn {
+    position: absolute;
+    top:30px;
+    cursor: pointer;
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+nav li {
+    list-style: none;
+}
+
+.menu-links {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #222;
+    text-align: center;
+    transform: translateX(-50%);
+    transition: 0.7s ease;
+}
+
+.tog-btn {
+    right: 0;
+}
+
+.menu-links ul {
+    padding-left: 80px;
+}
+
+.menu-links.show-nav {
+    transform: translateX(0);
+}
+
+.menu-links ul a {
+    padding: 10px 20px;
+    display: block;
+}
+
+
